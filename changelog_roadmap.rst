@@ -22,7 +22,7 @@ A summary of planned technical development of bio.agents software.  Developments
   - extra enhancements to content reporting (total #annotations, #annotations vs. time, annotations by type: table, chart)
   - indexing of whole site following clean-up of duplicates and agent IDs
   - expose #citations, altmetric attention score 
-  - support for bioagentsSchema 2.0.0 XML format I/O
+  - support for bioagents schema 2.0.0 XML format I/O
   - (mock up) new Curator Agenting
   - (prototype) Metrics Card with infographic showing compliance to information standard
   - (scoping) implementation of integration with BioShadock, BioContainers etc. (containers), IFB cloud (VMs, workflows)  
@@ -30,7 +30,7 @@ A summary of planned technical development of bio.agents software.  Developments
 
 - docs
 
-  - finalise `entry quality metrics <https://bioagents.sifterapp.com/issues/243>`_ : see the `emerging standard <https://github.com/bio-agents/bioagentsSchemaDocs/blob/master/information_requirement.rst>`_ and join the `discussion on GitHub <https://github.com/bio-agents/bioagentsSchema/issues/77>`_
+  - finalise `entry quality metrics <https://bioagents.sifterapp.com/issues/243>`_ : see the `emerging standard <https://github.com/bio-agents/bioagents schemaDocs/blob/master/information_requirement.rst>`_ and join the `discussion on GitHub <https://github.com/bio-agents/bioagents schema/issues/77>`_
   - finalise the `Curators Guide <http://bioagents.readthedocs.io/en/latest/curators_guide.html”>`_
 
     
@@ -55,7 +55,7 @@ A summary of planned technical development of bio.agents software.  Developments
 - features / technical
 
   - improved search and filtering
-  - drop mandatory requirement for email or URL in credits (non-breaking change in bioagentsSchema 2.1.0 and UI)
+  - drop mandatory requirement for email or URL in credits (non-breaking change in bioagents schema 2.1.0 and UI)
   - sorting on #citations, altmetric score, publication date *etc.*
   - graph of #citations, altmetric score *etc.* by time
   - expose publication metadata, *e.g.* copy-pastable citation information
@@ -100,7 +100,7 @@ NOTE
 
 - Things mentioned previously that will **not** be done
 
-  - "sandbox" area for intermediate registrations.  The information requirement is now lower for `beta entries <https://github.com/bio-agents/bioagentsSchema#information-requirements>`_ , "sandbox" (staging area) is not needed
+  - "sandbox" area for intermediate registrations.  The information requirement is now lower for `beta entries <https://github.com/bio-agents/bioagents schema#information-requirements>`_ , "sandbox" (staging area) is not needed
   - "moderation interface" for mass content import.  Instead there will be enhanced QA/QC with features for improving entries (see below)
   - improved admin interface for content management.  Instead an admin will be able to edit any entry via the UI, also programmatically via Python notebooks (see below)
   
@@ -186,13 +186,13 @@ January 2017
 
 December 2016
 -------------
-- stable data model, `bioagentSchema 2.0.0  <https://github.com/bio-agents/bioagentsSchema/tree/master/versions>`_ released
+- stable data model, `bioagentSchema 2.0.0  <https://github.com/bio-agents/bioagents schema/tree/master/versions>`_ released
 
   - defines the stable bio.agents API
   - many major changes (new credit mechanism, cleaner aggregation of links, links (including for docs and downloads) can be typed etc.
   - breaking changes reserved to once/year from now on
-  - incorporates very many community requests (tracked on https://github.com/bio-agents/bioagentsSchema/issues)
-  - new `schema docs <https://bioagentsschema.readthedocs.io/en/latest/>`_
+  - incorporates very many community requests (tracked on https://github.com/bio-agents/bioagents schema/issues)
+  - new `schema docs <https://bioagents-schema.readthedocs.io/en/latest/>`_
 
 - support for candidate stable schema (Stage 1/3) in backend & user interfaces, revised documentation
 
@@ -237,7 +237,7 @@ October 2016
 
 - stable agent ID / URL scheme including agent version number
 
-  - moved away from affiliation-name-version triplet for identifying entries, agents now identified by agentID, specific versions of a agent identified by versionID.  IDs have syntax constraints (defined in https://github.com/bio-agents/bioagentsSchema/).
+  - moved away from affiliation-name-version triplet for identifying entries, agents now identified by agentID, specific versions of a agent identified by versionID.  IDs have syntax constraints (defined in https://github.com/bio-agents/bioagents schema/).
   - IDs and therefore Agent Card URLs will be user-verifiable (implementation tbd)
 
 - improved bio.agents auto-mailer (using admin email address)

@@ -7,7 +7,7 @@ Contributors
 
 registry-dev
 -------------
-- Jon Ison (DTU, DK) - **technical coordination**, lead engineer for `bioagentsSchema <https://github.com/bio-agents/bioagentsSchema>`_ & `EDAM ontology <https://github.com/edamontology/edamontology>`_ development
+- Jon Ison (DTU, DK) - **technical coordination**, lead engineer for `bioagents schema <https://github.com/bio-agents/bioagents schema>`_ & `EDAM ontology <https://github.com/edamontology/edamontology>`_ development
 - Hans-Ioan Ienasescu (DTU, DK) - **curation (lead)**, Web development
 - Piotr Chmura (KU, DK) - **technical coordination**, **software development (lead)**, bio.agents development (back-end)
 - Hervé Ménager (Institut Pasteur, FR) - **workbench integration**, user engagement, ontology & schema development

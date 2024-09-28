@@ -4,7 +4,7 @@ Status reports
 2017 January
 ------------
 
-See the `changelog and roadmap <http://bioagentsschema.readthedocs.io/en/latest/>`_
+See the `changelog and roadmap <http://bioagents-schema.readthedocs.io/en/latest/>`_
 
   - IECHOR Hackathon @ EuBIC Winter School, Jan 10 2017 (https://tinyurl.com/registryhackathon11)
 
@@ -29,13 +29,13 @@ Actions (November)
 ^^^^^^^^^^^^^^^^^^
   - Technical developments
 
-     - stable schema `bioagentsSchema 2.0.0 <https://github.com/bio-agents/bioagentsSchema/tree/master/versions/bioagents-2.0.0>`_ released.  It will define the scope and potential functionality of bio.agents for years to come.   Future versions will follow the MAJOR.MINOR.PATCH pattern (http://semver.org), with major changes that could break bio.agents API dependencies restricted to once/year.  
+     - stable schema `bioagents schema 2.0.0 <https://github.com/bio-agents/bioagents schema/tree/master/versions/bioagents-2.0.0>`_ released.  It will define the scope and potential functionality of bio.agents for years to come.   Future versions will follow the MAJOR.MINOR.PATCH pattern (http://semver.org), with major changes that could break bio.agents API dependencies restricted to once/year.  
      - EDAM_1.16 released and available on `BioPortal <http://bioportal.bioontology.org/ontologies/EDAM?p=classes>`_ and `OLS <https://www.ebi.ac.uk/ols/ontologies/edam>`_.
        
   - Documentation
     
-     - new schema docs on http://bioagentsschema.readthedocs.io/en/latest/
-     - information requirement for "beta" and "standard" bio.agents entries `defined here <https://github.com/bio-agents/bioagentsSchema#information-requirements>`_.
+     - new schema docs on http://bioagents-schema.readthedocs.io/en/latest/
+     - information requirement for "beta" and "standard" bio.agents entries `defined here <https://github.com/bio-agents/bioagents schema#information-requirements>`_.
     
      
 Plans (December)
@@ -53,7 +53,7 @@ Actions (October)
   - Technical developments
 
      - `dev.bio.agents <https://dev.bio.agents>`_ has been moved into production on https://bio.agents.  Including new content ownership model whereby edit rights on entries can be shared amongst bio.agents users.
-     - candidate stable schema `bioagentsSchema 2.0-beta02 <https://github.com/bio-agents/bioagentsSchema/tree/master/bioagents-2.0-beta-02>`_ released.
+     - candidate stable schema `bioagents schema 2.0-beta02 <https://github.com/bio-agents/bioagents schema/tree/master/bioagents-2.0-beta-02>`_ released.
      - prototype EDAM extension for bioimaging analysis concepts released : `EDAM-Bioimaging_alpha01 <http://bioportal.bioontology.org/ontologies/EDAM-BIOIMAGING?p=classes>`_. 
 
   - Outreach actions

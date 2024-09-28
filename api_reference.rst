@@ -335,7 +335,7 @@ Example
 
 .. caution::
 
-   bio.agents supports upload/download of data in XML format compliant to `bioagentsScheme v3.0.0 <https://github.com/bio-agents/bioagentsSchema>`_.  If you want to download in XML format you should use these endpoints (see `Agent detail <https://bioagents.readthedocs.io/en/latest/api_reference.html#agent-detail>`_ below):
+   bio.agents supports upload/download of data in XML format compliant to `bioagentsScheme v3.0.0 <https://github.com/bio-agents/bioagents schema>`_.  If you want to download in XML format you should use these endpoints (see `Agent detail <https://bioagents.readthedocs.io/en/latest/api_reference.html#agent-detail>`_ below):
 
    .. code-block:: text
 

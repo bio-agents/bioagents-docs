@@ -134,31 +134,31 @@ Telephone number
 
 
 .. note::
-   - `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``isPluginFor`` relationship will allow specification of the agent to which the plug-in is applicable.
+   - `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``isPluginFor`` relationship will allow specification of the agent to which the plug-in is applicable.
    
 .. note::
-   - `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``isInterfaceTo`` relationship will allow specification of the data resource (database portal) that a SPARQL endpoint provides an interface to.
+   - `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``isInterfaceTo`` relationship will allow specification of the data resource (database portal) that a SPARQL endpoint provides an interface to.
      
 .. note::
-   - `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``includes`` relationship will allow specification of the agents that are included in a suite.
+   - `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``includes`` relationship will allow specification of the agents that are included in a suite.
 
 .. note::     
-   - `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``isInterfaceTo`` and ``uses`` relationships will allow specification of the agents that a web application provides an interface to or uses.
+   - `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``isInterfaceTo`` and ``uses`` relationships will allow specification of the agents that a web application provides an interface to or uses.
 
 .. note::
-   - `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``isInterfaceTo`` relationship will allow specification of the agent or data resource (database portal) that the web service provides an interface to.
+   - `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``isInterfaceTo`` relationship will allow specification of the agent or data resource (database portal) that the web service provides an interface to.
 
 .. note::
-   - `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``isInterfaceTo`` relationship will allow specification of the agent that the web service provides an interface to     
+   - `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``isInterfaceTo`` relationship will allow specification of the agent that the web service provides an interface to     
 
 .. note::
-   - `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``includes`` relationship will allow specification of the agents that are included in a workbench.
+   - `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``includes`` relationship will allow specification of the agents that are included in a workbench.
 
 .. note::
-   - `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``includes`` relationship will allow specification of the agents that are included in a workflow.       
+   - `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In future, the ``includes`` relationship will allow specification of the agents that are included in a workflow.       
 
 .. tip::
-   - `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In the meantime, collections may be used to group together related entries.     
+   - `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ allows agent relationships to be defined, but these are not yet supported in bio.agents.  In the meantime, collections may be used to group together related entries.     
 
 
 ## From api_attribute_model_dev.rst

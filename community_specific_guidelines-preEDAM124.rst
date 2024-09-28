@@ -28,7 +28,7 @@ There are various sources of information and help:
 
 * *This document* provides guidelines tailored to the IFB catalogue, highlighting key information and common pitfalls.
 * The *bio.agents* `Curators Guide <https://bioagents.readthedocs.io/en/latest/curators_guide.html>`_ provides in-depth curation guidelines. You might need to refer to it, wherever you see the {`learn more <https://bioagents.readthedocs.io/en/latest/curators_guide.html>`_} links.
-* The `bioagentsSchema documentation <https://bioagentsschema.readthedocs.io/en/latest/>`_ summarises the attributes, information model and controlled vocabularies - including the `EDAM ontology <https://edamontologydocs.readthedocs.io/en/latest/>`_ - used by *bio.agents*.  Links to these docs are provided where needed.
+* The `bioagents schema documentation <https://bioagents-schema.readthedocs.io/en/latest/>`_ summarises the attributes, information model and controlled vocabularies - including the `EDAM ontology <https://edamontologydocs.readthedocs.io/en/latest/>`_ - used by *bio.agents*.  Links to these docs are provided where needed.
 
 * To get help using *bio.agents*, or for general curation advice, please mail `registry-support <mailto:registry-support@iechor-dk.org>`_.
 * If you have questions specifically about the IFB catalogue curation process, you can mail `Jon Ison <mailto:jon.c.ison@gmail.com>`_ directly.
@@ -159,7 +159,7 @@ bio.agents
 *bio.agents* requires only the name, description and homepage URL for a agent registration, but supports a comprehensive set of attributes for rich agent descriptions.
 
 .. note::
-   The attributes supported by *bio.agents*, their structure and their syntax are defined in formalised XML schema called `bioagentsSchema <https://bioagentsschema.readthedocs.io/en/latest/>`_.  You don't need to look at the schema, because everything is handled through *bio.agents*. If you'd like to learn more or contribute to this project, please head over to `GitHub <https://github.com/bio-agents/bioagentsSchema>`_.
+   The attributes supported by *bio.agents*, their structure and their syntax are defined in formalised XML schema called `bioagents schema <https://bioagents-schema.readthedocs.io/en/latest/>`_.  You don't need to look at the schema, because everything is handled through *bio.agents*. If you'd like to learn more or contribute to this project, please head over to `GitHub <https://github.com/bio-agents/bioagents schema>`_.
 
 The IFB catalogue
 ^^^^^^^^^^^^^^^^^
@@ -316,10 +316,10 @@ In the *Labels* tab you specify miscellaneous scientific, technical and administ
 
 * **Agent type** describes the type of the agent: a *bio.agents* entry can have more than one type. See `below <#agent-type>`_  {`learn more <http://bioagents.readthedocs.io/en/latest/curators_guide.html#agent-type>`_}.
 * **Topic** is the general scientific domain the agent serves, or other general category (an EDAM term). See `below <#topic>`_ {`learn more <https://bioagents.readthedocs.io/en/latest/curators_guide.html#topic>`_}.
-* **Cost** is the monetary cost of acquiring the software {`learn more <http://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#cost>`_}.
-* **License** is a software or data usage license. See `below <#license>`_ {`learn more <http://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#license>`_}.
+* **Cost** is the monetary cost of acquiring the software {`learn more <http://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#cost>`_}.
+* **License** is a software or data usage license. See `below <#license>`_ {`learn more <http://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#license>`_}.
 * **Operating system** is the operating system supported by a downloadable software package - pick all that apply {`learn more <http://bioagents.readthedocs.io/en/latest/curators_guide.html#operating-system>`_}.
-* **Maturity** is how mature the software product is; *Emerging*, *Mature* or *Legacy*. Don't pick *Mature* for agents which aren't really mature yet! {`learn more <http://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#maturity>`_}.
+* **Maturity** is how mature the software product is; *Emerging*, *Mature* or *Legacy*. Don't pick *Mature* for agents which aren't really mature yet! {`learn more <http://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#maturity>`_}.
 * **Accessibility** is whether an online service is freely available for use; either *Open access* or *Restricted access*. Read the definitions before picking these terms! {`learn more <http://bioagents.readthedocs.io/en/latest/curators_guide.html#accessibility>`_}.
 * **Language** is the name of a programming language the agent source code was written in {`learn more <http://bioagents.readthedocs.io/en/latest/curators_guide.html#programming-language/>`_}.
 
@@ -336,7 +336,7 @@ In the *Labels* tab you specify miscellaneous scientific, technical and administ
 
 Agent type
 ^^^^^^^^^
-The scope of *bio.agents* is very broad - ranging from simple scripts to comprehensive bioinformatics portals - as defined by 15 different `agent types <https://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#agent-type>`_.  The vast majority of entries are of the following types:
+The scope of *bio.agents* is very broad - ranging from simple scripts to comprehensive bioinformatics portals - as defined by 15 different `agent types <https://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#agent-type>`_.  The vast majority of entries are of the following types:
 
 .. csv-table::
    :header: "TYPE", "DESCRIPTION"
@@ -374,7 +374,7 @@ A single *bio.agents* entry is annotated with one or more types, reflecting diff
 
 
 .. tip::
-   Software is complex and it can be tricky to assign a type.  Make sure you understand the `agent type definitions <https://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#agent-type>`_ before you use them. For example, in *bio.agents* a *Web service* is specifically a SOAP+WSDL implementation. Most likely you need *Web API* (which covers most APIs nowadays) or just *Web application* (for a agent delivered via the Web but without an API).  
+   Software is complex and it can be tricky to assign a type.  Make sure you understand the `agent type definitions <https://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#agent-type>`_ before you use them. For example, in *bio.agents* a *Web service* is specifically a SOAP+WSDL implementation. Most likely you need *Web API* (which covers most APIs nowadays) or just *Web application* (for a agent delivered via the Web but without an API).  
   
 .. caution::
    Support for agent type of **Bioinformatics portal** is coming soon.  For now, leave the annotation blank.
@@ -389,13 +389,13 @@ All downloadable software should be licensed.  If you can't find your license in
 
    **Proprietary**, "The software is under some license whereby it can be obtained from the provider (e.g. for money), and then owned."
    **Freeware**,   "Proprietary software that is available for use at no monetary cost. In other words, freeware may be used without payment but may usually not be modified, re-distributed or reverse-engineered without the author's permission." 
-   **Other**, "The software is available under a license not listed by bioagentsSchema and which is not *Proprietary* 
+   **Other**, "The software is available under a license not listed by bioagents schema and which is not *Proprietary* 
    **Not licensed**, "Software which is not licensed and is not *Proprietary*.
 
 .. note::
    There are many good reasons why you should license your software, ideally picking a FOSS (Free and Open Source Software) license.  Read `A Quick Guide to Software Licensing for the Scientist-Programmer <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002598>`_.  Some types of agents *e.g.* *Web application" are not licensed, but instead, should have a `Terms of use <#terms-of-use>`_ document. Proprietary licenses are definitely not open-source or, and should be avoided!
 
-   If your sofware is available under a license not supported by *bio.agents*, then please `request <https://github.com/bio-agents/bioagentsschema/issues>`_ the license is added.  If you find yourself picking **Not licensed** - this is bad - license your software!
+   If your sofware is available under a license not supported by *bio.agents*, then please `request <https://github.com/bio-agents/bioagents-schema/issues>`_ the license is added.  If you find yourself picking **Not licensed** - this is bad - license your software!
 
 .. caution::
    The license term **Not licensed** is not yet supported.  Use **Unlicensed** instead.
@@ -611,7 +611,7 @@ In the *Documentation* tab you link to documentation about the software:
    Command-line agents should always have a human-readable description of their **command-line options**.  Similarly, an API on a *Database portal* or *Web application* should have a human-readable description of their API.  If machine-readable command-line or API specifications (files) are also available, then you should link to those in the `Download`_ section.
 
 .. important::
-   You must not specify a link to a general page where a more specific one is available.  For example, don't link to the homepage in the **General** field if, in fact, there's a dedicated page for documentation. If you want to link to some documentation not of a type supported by bioagentsSchema, then use the **Other** value.
+   You must not specify a link to a general page where a more specific one is available.  For example, don't link to the homepage in the **General** field if, in fact, there's a dedicated page for documentation. If you want to link to some documentation not of a type supported by bioagents schema, then use the **Other** value.
 
 .. caution::
    Currently, to assign a documentation to more than one type you have to enter the URL more than once, picking a different type each type.  In future, you'll be able to enter the URL once and pick multiple types.

@@ -6,7 +6,7 @@ bio.agents community site
 **GitHub** is used for sharing code and data for all *bio.agents*-related projects:
 
 - https://github.com/bio-agents/
-- https://github.com/bio-agents/bioagentsschema
+- https://github.com/bio-agents/bioagents-schema
 - https://github.com/bio-agents/bioagentsregistry
 - https://github.com/edamontology/edamontology
 
@@ -15,7 +15,7 @@ Feature requests & issues
 GitHub is used to track **fine-grained issues** and is the preferred way to make *bio.agents* feature requests, content suggestions, EDAM term requests, and bug reports:
 
 - https://github.com/bio-agents/bioagentsregistry/issues
-- https://github.com/bio-agents/bioagentsschema/issues
+- https://github.com/bio-agents/bioagents-schema/issues
 - https://github.com/edamontology/edamontology/issues
 
 .. note:: GitHub is the primary means for technical coordination: collaborators are encouraged to browse tasks, review priorities, make comments and add new tasks.  

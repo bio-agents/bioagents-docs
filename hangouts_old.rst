@@ -187,9 +187,9 @@ Vivi Raundahl Gregersen, Hedi Peterson, Veit Schwämmle, Vivi Gregersen, Ahto Sa
 
 Minutes
 ^^^^^^^
-The goal of todays meeting was to go over the proposed standards for agents entries in bio.agents  (see https://github.com/bio-agents/bioagentsSchemaDocs/blob/master/information_requirement.rst ). 
+The goal of todays meeting was to go over the proposed standards for agents entries in bio.agents  (see https://github.com/bio-agents/bioagents schemaDocs/blob/master/information_requirement.rst ). 
 The minutes also offer fundamental concerns – that prompt for consideration before launching the standards
-Several comments were made at the meeting chat and also issues were brought up. Those can be found here https://github.com/bio-agents/bioagentsSchema/issues/77 and more can be added after the meeting, please.
+Several comments were made at the meeting chat and also issues were brought up. Those can be found here https://github.com/bio-agents/bioagents schema/issues/77 and more can be added after the meeting, please.
 The main points - constructive discussion points and actions points – at the meeting, were the following:
 
 **The idea of 'revising the standards on an annual basis' is challenging**
@@ -436,7 +436,7 @@ Additional information will be welcome but given default values i.e. not necessa
 
 **ADDENDUM Jon Ison 28/11/16**
 
-Concerning the minimum information requirement for "beta" entries, see https://github.com/bio-agents/bioagentsSchema#information-requirements:
+Concerning the minimum information requirement for "beta" entries, see https://github.com/bio-agents/bioagents schema#information-requirements:
 
 - name 
 - agentID

@@ -9,10 +9,10 @@ Curators Guide
   
 *bio.agents* includes all types of bioinformatics *agents* - application software with well-defined data processing functions (inputs, outputs and operations).  This ranges from simple agents with a single primary function, to complex, multimodal agents with many disinct functions.  Agents may be available for immediate use as online services, or in a form which you can download, install, configure and run yourself.
 
-Usually, a *bio.agents* entry describes a discrete agent.  Some entries describe *collections* of agents, such as software suites.  The scope, *i.e.* the types of agents that may be included, and the attributes for their description, are defined in `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ which uses the `EDAM ontology <https://github.com/edamontology/edamontology/>`_ as a source of terms for the agent scientific description.  These curation guidelines describe how to create a high quality agent description, above and beyond the syntactic and semantic constraints that are defined in bioagentsSchema and EDAM.
+Usually, a *bio.agents* entry describes a discrete agent.  Some entries describe *collections* of agents, such as software suites.  The scope, *i.e.* the types of agents that may be included, and the attributes for their description, are defined in `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ which uses the `EDAM ontology <https://github.com/edamontology/edamontology/>`_ as a source of terms for the agent scientific description.  These curation guidelines describe how to create a high quality agent description, above and beyond the syntactic and semantic constraints that are defined in bioagents schema and EDAM.
 
 - `general guidelines <http://bioagents.readthedocs.io/en/latest/curators_guide.html#general-guidelines>`_ include basic considerations, annotation of `agent functions <http://bioagents.readthedocs.io/en/latest/curators_guide.html#agentfunctions>`_ and the use of `EDAM <http://bioagents.readthedocs.io/en/latest/curators_guide.html#edamannotations>`_.  You should read these first of all.
-- guidelines on `specific attributes <http://bioagents.readthedocs.io/en/latest/curators_guide.html#summary>`_ defined in the `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ 
+- guidelines on `specific attributes <http://bioagents.readthedocs.io/en/latest/curators_guide.html#summary>`_ defined in the `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ 
 - guidelines specific to individual `types of agents <http://bioagents.readthedocs.io/en/latest/curators_guide.html#guidelines-per-agent-type>`_
 
 
@@ -26,7 +26,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
     
 .. note::
    
-   The guidelines are a key component of an emerging `information standard <http://bioagentsschema.readthedocs.io/en/latest/information_requirement.html>`_ for agents being adopted by *bio.agents*, as a basis to monitor content and label *bio.agents* entries.
+   The guidelines are a key component of an emerging `information standard <http://bioagents-schema.readthedocs.io/en/latest/information_requirement.html>`_ for agents being adopted by *bio.agents*, as a basis to monitor content and label *bio.agents* entries.
 
    - **automatically verified** guidelines are (or will be) checked *via* automated periodic QC of the *bio.agents* system
    - **manually verified** guidelines are checked *via* manual QC performed by trusted curators (*bio.agents* admin, entry owners *etc.*)
@@ -75,7 +75,7 @@ Consider the following *before* creating a *bio.agents* entry:
    
 Agent functions 
 ^^^^^^^^^^^^^^^
-*bio.agents* uses a model of software (see below) defined within `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_.  A agent can have one or more basic functions (modes of operation), each function performing one or more specific operation (e.g."Sequence alignment"), and may have one or more primary inputs and outputs, each of a defined type of data and listing supported format(s).
+*bio.agents* uses a model of software (see below) defined within `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_.  A agent can have one or more basic functions (modes of operation), each function performing one or more specific operation (e.g."Sequence alignment"), and may have one or more primary inputs and outputs, each of a defined type of data and listing supported format(s).
 
   
 .. image:: agent_function.PNG
@@ -94,7 +94,7 @@ Plan how how to describe the software:
    - you **MAY** annotate all the commonly used alternatives and, if specifying alternatives, **MUST** annotate these as distinct data + format couplets within a single input or output.
    - many inputs and outputs are complex, with individual data files containining multiple types of data.  You **MUST** select the single EDAM Data term that best describes an input or output (see `EDAM annotations <http://bioagents.readthedocs.io/en/latest/curators_guide.html#edam-annotations>`_ below) and **MUST NOT** specify multiple EDAM Data terms describing differents facets of the data.
 
-   Input on this issue is welcomed via `GitHub <https://github.com/bio-agents/bioagentsSchema/issues/83>`_.
+   Input on this issue is welcomed via `GitHub <https://github.com/bio-agents/bioagents schema/issues/83>`_.
 
 .. _edamannotations:
    
@@ -517,17 +517,17 @@ License
 *Software or data usage license, e.g. "GPL-3.0"*
 
 - **1.** **MUST** acurately describe the license used.
-- **2.** **SHOULD** use "Proprietary" in cases where the software is under license (not defined in bioagentsSchema) whereby it can be obtained from the provider (*e.g.* for money), and then owned, *i.e.* definitely not an open-source or free software license.
+- **2.** **SHOULD** use "Proprietary" in cases where the software is under license (not defined in bioagents schema) whereby it can be obtained from the provider (*e.g.* for money), and then owned, *i.e.* definitely not an open-source or free software license.
 - **3.** **SHOULD** use "Freeware" for software that is available for use at no monetary cost. In other words, freeware may be used without payment but may usually not be modified, re-distributed or reverse-engineered without the author's permission.
 - **4.** **SHOULD** use "Not licensed" for software which is not licensed and is not "Proprietary".
-- **5.** **SHOULD** use "Other" if the software is available under a license not listed by bioagentsSchema and which is not "Proprietary".
+- **5.** **SHOULD** use "Other" if the software is available under a license not listed by bioagents schema and which is not "Proprietary".
   
   .. note::
-  - a controlled vocabulary of valid terms is defined in `bioagentsSchema <https://github.com/bio-agents/bioagentsSchema/tree/master/stable>`_.
+  - a controlled vocabulary of valid terms is defined in `bioagents schema <https://github.com/bio-agents/bioagents schema/tree/master/stable>`_.
   - see the `syntax guidelines <http://bioagents.readthedocs.io/en/latest/api_usage_guide.html#license>`_.
 
 .. tip::
-   - Use the "Other" license for custom institutional licenses that are out of scope of `bioagentsSchema <https://github.com/bio-agents/bioagentsSchema/tree/master/stable>`_.  If you've found a license that you think should be included in bioagentsSchema please report it *via* `GitHub <https://github.com/bio-agents/bioagentsSchema/issues/new>`_.
+   - Use the "Other" license for custom institutional licenses that are out of scope of `bioagents schema <https://github.com/bio-agents/bioagents schema/tree/master/stable>`_.  If you've found a license that you think should be included in bioagents schema please report it *via* `GitHub <https://github.com/bio-agents/bioagents schema/issues/new>`_.
 
 
 .. note::
@@ -852,7 +852,7 @@ Documentation type
    "Terms of use", "Rules that one must agree to abide by in order to use a service."
    "Training material", "Online training material such as a tutorial, a presentation, video etc."
    "User manual ", "Information on how to use the software, tailored to the end-user."
-   "Other", "Some other type of documentation not listed in bioagentsSchema."
+   "Other", "Some other type of documentation not listed in bioagents schema."
 
 Note (documentation)
 ....................
@@ -1221,7 +1221,7 @@ Web API
 - in case the web service provides an interface to an existing agent registered in *bio.agents*, try to ensure the relevant annotations are consistent
 
 .. note::
-   - `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ includes a basic model of an API specification including endpoints however this is not yet supported in *bio.agents*
+   - `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ includes a basic model of an API specification including endpoints however this is not yet supported in *bio.agents*
 
 .. _webservice:     
      
@@ -1241,7 +1241,7 @@ Web service
 - in case the web service provides an interface to an existing agent registered in *bio.agents*, try to ensure the relevant annotations are consistent
 
 .. note::
-   - `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_ includes a basic model of an API specification including endpoints however this is not yet supported in *bio.agents*
+   - `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_ includes a basic model of an API specification including endpoints however this is not yet supported in *bio.agents*
 
 
 Workbench
@@ -1318,7 +1318,7 @@ credit->iechorNode
 ^^^^^^^^^^^^^^^^^^
 *IECHOR node credited for developing or providing the software - the software is in Node Service Delivery Plan, e.g. "Denmark"*
 
-- **1.** **MUST** acurately specify an IECHOR Node that is credited, in terms from a `controlled vocabulary <https://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#iechor-node>`_
+- **1.** **MUST** acurately specify an IECHOR Node that is credited, in terms from a `controlled vocabulary <https://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#iechor-node>`_
 - **2.** **MUST** only be credited on agents that are in a Node's Service Delivery Plan.
 - **3.** **MUST** only be set by a an IECHOR Node manager or IECHOR Hub.
 
@@ -1326,7 +1326,7 @@ credit->iechorPlatform
 ^^^^^^^^^^^^^^^^^^^^^^
 *IECHOR platform credited for developing or providing the software, e.g. "Agents"*
 
-- **1.** **MUST** acurately specify an IECHOR Platform that is credited, in terms from a `controlled vocabulary <https://bioagentsschema.readthedocs.io/en/latest/controlled_vocabularies.html#iechor-platform>`_
+- **1.** **MUST** acurately specify an IECHOR Platform that is credited, in terms from a `controlled vocabulary <https://bioagents-schema.readthedocs.io/en/latest/controlled_vocabularies.html#iechor-platform>`_
 - **2.** **MUST** only be set by a an IECHOR Node manager or IECHOR Hub.  
      
 

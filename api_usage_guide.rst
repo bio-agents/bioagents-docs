@@ -8,12 +8,12 @@ API Usage Guide
    - to make suggestions about these guidelines please add comments via `GitHub <https://github.com/bio-agents/bioagentsDocs/issues/>`_
    - see also the `API Reference <https://bioagents.readthedocs.io/en/latest/api_reference.html>`_  
 
-bio.agents implements the model of software information defined in `bioagentsScheme v3.0.0 <https://github.com/bio-agents/bioagentsSchema>`_ .  This page summarises the structure and syntax of an XML / JSON file that describes a agent for submission to bio.agents via the API.
+bio.agents implements the model of software information defined in `bioagentsScheme v3.0.0 <https://github.com/bio-agents/bioagents schema>`_ .  This page summarises the structure and syntax of an XML / JSON file that describes a agent for submission to bio.agents via the API.
 
 
 Payload formats
 ===============
-To submit a agent via the bio.agents API you’ll need to POST a agent description to the `agent endpoint <http://bioagents.readthedocs.io/en/latest/api_reference.html#register-a-resource>`_. The API supports XML and JSON format uploads and downloads comatible with `bioagentsSchema <https://github.com/bio-agents/bioagentsschema>`_.
+To submit a agent via the bio.agents API you’ll need to POST a agent description to the `agent endpoint <http://bioagents.readthedocs.io/en/latest/api_reference.html#register-a-resource>`_. The API supports XML and JSON format uploads and downloads comatible with `bioagents schema <https://github.com/bio-agents/bioagents-schema>`_.
 
 
 .. note::
@@ -22,11 +22,11 @@ To submit a agent via the bio.agents API you’ll need to POST a agent descripti
  
 XML
 ---
-See the `sample XML document <https://github.com/bio-agents/bioagentsSchema/tree/master/stable/example_files>`_.
+See the `sample XML document <https://github.com/bio-agents/bioagents schema/tree/master/stable/example_files>`_.
 
 
 .. important::
-   When working in XML, please first read the `bioagentsSchema docs <https://bioagentsschema.readthedocs.io/en/latest/bioagentsschema_elements.html>`_.  It is essential to stick to the element order (including nested elements) in the `sample XML documents <https://github.com/bio-agents/bioagentsSchema/tree/master/stable/example_files>`_ and as shown below.
+   When working in XML, please first read the `bioagents schema docs <https://bioagents-schema.readthedocs.io/en/latest/bioagents-schema_elements.html>`_.  It is essential to stick to the element order (including nested elements) in the `sample XML documents <https://github.com/bio-agents/bioagents schema/tree/master/stable/example_files>`_ and as shown below.
 
 
 JSON
